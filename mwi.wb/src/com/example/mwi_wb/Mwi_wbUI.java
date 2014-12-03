@@ -33,7 +33,7 @@ public class Mwi_wbUI extends UI {
 
 				layout.addComponent(new Label("New label text......"));
 
-				layout.addComponent(new Label("New label text."));
+
 
 			}
 		});
