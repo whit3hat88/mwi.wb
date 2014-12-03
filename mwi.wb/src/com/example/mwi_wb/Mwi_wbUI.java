@@ -30,7 +30,11 @@ public class Mwi_wbUI extends UI {
 		Button button = new Button("Click Me");
 		button.addClickListener(new Button.ClickListener() {
 			public void buttonClick(ClickEvent event) {
+
 				layout.addComponent(new Label("New label text......"));
+
+				layout.addComponent(new Label("New label text."));
+
 			}
 		});
 		layout.addComponent(button);
